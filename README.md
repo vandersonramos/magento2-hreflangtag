@@ -8,7 +8,7 @@ The hreflang attribute (also referred to as rel="alternate") tells Google which 
 Considering the Magento multi store structure, this module will add the hreflang tag to the pages.
 
 ##### Code Sample
-`<link rel="alternate" href="http://example.com/en" hreflang="en-us" />`
+`<link rel="alternate" href="http://example.com/en" hreflang="en-us" />` <br>
 `<link rel="alternate" href="http://example.com/pt" hreflang="pt-br" />`
 
 

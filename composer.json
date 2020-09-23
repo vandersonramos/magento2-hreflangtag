@@ -3,6 +3,7 @@
     "description": "This module adds the alternate hreflang tag",
     "keywords": ["magento2", "hreflang tag"],
     "type": "magento2-module",
+    "minimum-stability": "stable",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
