@@ -1,0 +1,6 @@
+<?php /** @var $block VandersonRamos\HrefLangTag\Block\HrefLangTag */?>
+<?php if ($links = $block->getStoreAlternativeLinks()): ?>
+    <?php foreach ($links as $hrefLang => $url): ?>
+        <link rel="alternate" hreflang="<?php echo $hrefLang ?>" href="<?php echo $url ?>" />
+    <?php endforeach; ?>
+<?php endif ?>
